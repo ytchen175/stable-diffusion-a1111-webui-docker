@@ -134,7 +134,7 @@ Then rebuild: `docker compose --profile auto build`
 
 - **GPU**: Requires NVIDIA GPU with Container Toolkit
 - **Port**: Default 7860, change via `WEBUI_PORT` env variable
-- **Memory**: `--medvram` and `--xformers` enabled by default
+- **Memory**: `--medvram` enabled by default
 
 ## Version
 

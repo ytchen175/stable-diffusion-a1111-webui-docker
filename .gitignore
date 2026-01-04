@@ -1,0 +1,55 @@
+# Windows system files
+nul
+Thumbs.db
+Desktop.ini
+*.lnk
+
+.vscode/
+.claude/
+
+# Lock files
+.lock
+*.lock
+
+# Model files (large binary files)
+data/models/**/*.safetensors
+data/models/**/*.ckpt
+data/models/**/*.pth
+data/models/**/*.pt
+data/models/**/*.bin
+data/models/**/*.onnx
+
+# Cache directories
+data/.cache/
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+
+# Output/generated files
+output/
+
+# Config data (optional - uncomment if you don't want to track)
+# data/config/
+
+# Embeddings
+data/embeddings/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Docker volumes data
+data/.cache/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store

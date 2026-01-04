@@ -117,7 +117,7 @@ RUN . /clone.sh stable-diffusion-stability-ai https://github.com/joypaul162/Stab
 
 - **GPU**: 需要 NVIDIA GPU 並安裝 Container Toolkit
 - **Port**: 預設 7860，可透過 `WEBUI_PORT` 環境變數修改
-- **記憶體**: 預設啟用 `--medvram` 和 `--xformers`
+- **記憶體**: 預設啟用 `--medvram`
 
 ## 版本
 
