@@ -61,7 +61,7 @@ if "!HAS_MODEL!"=="0" (
     )
 )
 
-docker image inspect sd-auto:78 >nul 2>&1
+docker image inspect sd-a1111-webui:latest >nul 2>&1
 if errorlevel 1 (
     echo.
     echo Building Docker image... This may take 10-20 minutes.

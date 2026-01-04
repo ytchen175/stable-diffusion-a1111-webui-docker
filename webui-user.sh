@@ -56,7 +56,7 @@ if [ "$HAS_MODEL" -eq 0 ]; then
     fi
 fi
 
-if ! docker image inspect sd-auto:78 >/dev/null 2>&1; then
+if ! docker image inspect sd-a1111-webui:latest >/dev/null 2>&1; then
     echo
     echo "Building Docker image... This may take 10-20 minutes."
     echo
